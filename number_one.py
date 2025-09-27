@@ -1,10 +1,11 @@
 bite = 1000/8
-print(bite)
+print(f"{bite} байт")
 kb = 1000/8/1024
-print(kb)
+print(f"{kb} килобайт")
 mb = 1000/8/1024/1024
-print(mb)
+print(f"{mb} мегабайт")
 gb = 1000/8/1024/1024/1024
-print(gb)
+print(f"{gb} гигабайт")
 tb = 1000/8/1024/1024/1024/1024
-print(tb)
+
+print(f"{tb} террабайт")
